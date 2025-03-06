@@ -1,0 +1,155 @@
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking online hotels</title>
+</head>
+    
+ <style>
+    
+     table{
+         width:400px;
+         height:300px;
+         margin: auto;       
+     }
+    
+     form {
+           max-width: 400px;
+           margin: 20px auto;
+     }
+     
+     label{
+            display: block;
+            margin-bottom: 8px;
+     }
+     
+     input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+    } 
+     
+     button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+    }
+     
+     button:hover {
+            background-color: #45a049;
+    }
+     
+     h1{
+        font-family:Georgia;
+        font-size:40px;
+        margin-top: 1%;
+        margin-left: 15%;
+     }
+     
+     body, ul {
+            margin: 0;
+            padding: 0;
+     }
+
+    nav {
+        background-color: #0047AB;
+        padding: 10px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+     
+    .logo {
+          max-width:70px; 
+          max-height:70px;
+          margin-right: 20px;
+    }
+
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        margin-right: 15px;
+        display: inline;
+    }
+     
+    a {
+       color: #FFFFFF; 
+       text-decoration: none;
+       display: inline-block;
+       padding: 10px;
+     }
+     
+     footer {
+            text-align: center;
+            padding: 20px 0;
+     }
+     
+     h3{
+        font-family:Cambria Math;
+     }
+     
+</style>   
+
+<body>
+    
+    <nav>
+      <ul>
+        <li><a href="home.html"><u>Home</u></a></li>
+        <li><a href="heritage.html"><u>Heritage</u></a></li>
+        <li><a href="hotelBooking.html"><u>Hotel Booking</u></a></li>
+        <li><a href="galary.html"><u>Gallery</u></a></li>
+      </ul>
+  <img id="image3" src="image/st_small_507x507-pad_600x600_f8f8f8-removebg-preview (1).png" alt="Logo" class="logo">
+</nav>
+
+        <h1 align="left">Find your next stay <br>Search low prices on hotels, homes and much more...<br></h1>
+        <form>
+            
+        <h3 align="center">Guest Information</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="number">Phone Number:</label>
+        <input type="text" id="number" name="number" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" name="checkin" required>
+
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" name="checkout" required>
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required>
+
+        <label for="specialRequests">Special Requests:</label>
+        <textarea id="specialRequests" name="specialRequests" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+   </form>
+        
+    <footer>
+        <p>&copy; Galle Tourism 2023. All Rights Reserved.</p>
+        <p>Connect with Us<br><br>
+        <img src="image/twitter-icon-square-logo-108D17D373-seeklogo.com.png" width="25px" height="25px">
+        <img src="image/logo-ig-png-instagram-logo-camel-productions-website-25.png" width="25px" height="25px">
+        <img src="image/png-transparent-facebook-messenger-logo-icon-facebook-facebook-logo-blue-text-trademark-thumbnail.png"  width="25px" height="25px">
+         </p>
+       </footer>
+    </body>
+
+</html>
